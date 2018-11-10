@@ -1,2 +1,2 @@
 # joeBotAI
-Once we get TensorFlow up in here shit will start getting spoopy.
+Our Joe, enhanced with machine learning.
