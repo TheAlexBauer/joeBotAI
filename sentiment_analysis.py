@@ -16,5 +16,5 @@ public_tweets =  api.search(q = search, lang = 'en', locale = 'en', rpp = 10, sh
 for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
-    print("JOE'S ANALYSIS")
+    print("JOE'S ANALYSIS: ")
     print(analysis.sentiment)
