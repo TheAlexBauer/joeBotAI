@@ -9,7 +9,7 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 #sentiment analysis
-q = 'Penn State'
+q = ''
 lang = 'en'
 locale = 'en'
 rpp = 10
