@@ -15,7 +15,7 @@ locale = 'en'
 rpp = 10
 page = 1
 since_id = 0
-geocode = 
+geocode = 40.7934, 77.8600, 25
 show_user = 'true'
 
 public_tweets =  api.search(q, lang, locale, rpp, page, since_id, geocode, show_user)
