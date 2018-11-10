@@ -9,16 +9,9 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 #sentiment analysis
-q = ''
-lang = 'en'
-locale = 'en'
-rpp = 10
-page = 1
-since_id = 0
-geocode = 40.7934, 77.8600, 25
-show_user = 'true'
+search = 'Penn State'
 
-public_tweets =  api.search(q, lang, locale, rpp, page, since_id, geocode, show_user)
+public_tweets =  api.search(q = search, lang = 'en', locale = 'en', rpp = 10, show_user = 'true')
 
 for tweet in public_tweets:
     print(tweet.text)
